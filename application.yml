@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev #开发环境
+  application:
+    name: microservicecloud-config-pomo-dev
+---
+spring:
+  profiles: test #测试环境
+  application:
+    name: microservicecloud-config-pomo-test
+#请务必保存为utf-8
